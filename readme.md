@@ -1,4 +1,4 @@
-#[DoggoTranslate (core) :dog:](https://gabbersaurus.github.io/DoggoTranslator/)
+#[DoggoTranslator (core) :dog:](https://gabbersaurus.github.io/DoggoTranslator/)
 > The universal doggo translator
 
 I made this a while ago for fun in Vue with ES6 JavaScript. Later, I made the translator standalone and this repository is for just the core translator. If you don't know what this is all about you should read [this](http://knowyourmeme.com/memes/doggo) page.
@@ -7,7 +7,7 @@ The reason I didn't release it back then because it is still missing alot of tra
 ##How to install
 Using npm:
 ```bash
-npm install doggotranslate
+npm install doggotranslator
 ```
 
 ##Example
