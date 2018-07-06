@@ -111,17 +111,19 @@ class DoggoTranslator {
     _translateSingleEntry(input, find, replace) {
         find = this._escapeRegex(find);
 
-        return input.replace(new RegExp('\\b(' + find + ')\\b', 'gi'), (match) => {
-            if (match === match.toUpperCase()) {
-                return replace.toUpperCase();
-            }
+        return input.replace(new RegExp('\\b(' + find + ')\\b', 'gi'), (match) = > {
+                if (match === match.toUpperCase()
+    )
+        {
+            return replace.toUpperCase();
+        }
 
-            if (match === this._ucfirst(match)) {
-                return this._ucfirst(replace);
-            }
+        if (match === this._ucfirst(match)) {
+            return this._ucfirst(replace);
+        }
 
-            return replace;
-        })
+        return replace;
+    })
     }
 
     /**
