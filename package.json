@@ -1,6 +1,6 @@
 {
   "name": "doggotranslator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The universal doggo translator",
   "main": "src/index.js",
   "scripts": {
