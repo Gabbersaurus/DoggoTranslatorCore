@@ -111,7 +111,7 @@ class DoggoTranslator {
     _translateSingleEntry(input, find, replace) {
         find = this._escapeRegex(find);
 
-        return input.replace(new RegExp('\\b(' + find + ')\\b', 'gi'), (match) = > {
+        return input.replace(new RegExp('\\b(' + find + ')\\b', 'gi'), (match) => {
                 if (match === match.toUpperCase()
     )
         {
